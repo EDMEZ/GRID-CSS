@@ -22,8 +22,10 @@
  - grid-template-areas;
 
  ... e mais 4 propriedades com o **alinhamento**
+
 ---
- ## ITEM(s)
+
+  ## ITEM(s)
  - grid-columns
    - grid-column-start
    - grid-column-end

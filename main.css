@@ -1,0 +1,50 @@
+html,body{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #7159c1;    
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 15vh 70vh 15vh;
+    grid-template-areas:"h h"   /* ? neste comando é possível usar as areas mais facilmente,* */
+                        "m a"   /* ? se baseando no seguinte conceito: definir um nome para o item*/ 
+                        "f f";  /* ? ex: header{grid-area:h} e no elemento pai utilizar h como
+                                ? posicionamento.*/
+                        
+                                /* ?este exemplo é para mostrar que existe apenas 3 linhas sendo
+                                ?  sendo que esta sendo header e header ocupando toda a 
+                                ?  primeira linha, a segunda é o main e o aside, já a 
+                                ?  terceira é footer e footer.*/
+                            
+}
+header{
+    background-color: yellow;
+    grid-column-start: 1;/* poderia ser utilizado o apenas grid-column:1/3
+                            ou utilizar o grid template areas no elemento pai de
+                            todos os elementos filhos*/
+    grid-column-end:3;
+    grid-area: h;
+}
+main{
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-area:m;
+}
+
+aside{
+    background-color: crimson;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-area: a;
+}
+
+footer{
+    background-color: greenyellow;
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-area: f;
+}
