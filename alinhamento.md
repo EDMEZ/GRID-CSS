@@ -48,6 +48,7 @@ Podemos usar 7 valores:
 5. space-between
 6. space-around
 7. space-evenly
+---
 
 ### Items
 `justify-items` e `align-items` vai permitir alinhar os items do nosso grid, em qualquer espaço disponível, na célula que ele habitar.
@@ -58,7 +59,7 @@ Podemos usar 4 valores:
 2. end
 3. center
 4. stretch
-
+---
 ### Self
 `justify-self` e `align-self` vai nos permitir alinhar o item em si.
 
