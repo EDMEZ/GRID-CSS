@@ -12,7 +12,7 @@
  - inicialmente haverá dois grupos:
   `container` e `item(s)`
 --- 
-  ### CONTAINER 
+  ## CONTAINER 
  - display:grid;
  - grid-template-columns;
  - grid-template-rows;
@@ -24,6 +24,7 @@
  ... e mais 4 propriedades com o **alinhamento**
 
 ---
+
 
   ## ITEM(s)
  - grid-columns
