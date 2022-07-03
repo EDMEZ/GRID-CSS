@@ -7,11 +7,11 @@
  - Bidimensional
  - Divisão de toda a pagina em linhas e colunas
  - posicionar elementos em qualquer parte de uma divisão
-
+---
   ## PROPRIEDADES 
  - inicialmente haverá dois grupos:
   `container` e `item(s)`
- 
+--- 
   ### CONTAINER 
  - display:grid;
  - grid-template-columns;
@@ -22,7 +22,7 @@
  - grid-template-areas;
 
  ... e mais 4 propriedades com o **alinhamento**
-
+---
  ## ITEM(s)
  - grid-columns
    - grid-column-start
